@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HLColor'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'HexColor'
   s.description      = <<-DESC
 HexColor utils.
@@ -16,7 +16,7 @@ HexColor utils.
   s.homepage         = 'https://github.com/wyh900207/HLColor.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wyh900207@126.com' => 'wyh900207@126.com' }
-  s.source           = { :git => 'https://github.com/wyh900207/HLColor.git', :tag => '0.0.1' }
+  s.source           = { :git => 'https://github.com/wyh900207/HLColor.git', :tag => '0.0.2' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
