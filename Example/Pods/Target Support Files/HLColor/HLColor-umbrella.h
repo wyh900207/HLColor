@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "UIColor+Hex.h"
+#import "UIColor+HexDot.h"
 
 FOUNDATION_EXPORT double HLColorVersionNumber;
 FOUNDATION_EXPORT const unsigned char HLColorVersionString[];

@@ -1,5 +1,5 @@
 PODS:
-  - HLColor (0.1.0)
+  - HLColor (0.0.1)
 
 DEPENDENCIES:
   - HLColor (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HLColor: 24dcda3e21e122ee1f94ed110cb9b69663f9aff2
+  HLColor: 4a9a8a93a48496616f2ad92c224c92c40df42506
 
 PODFILE CHECKSUM: d592685580ebbfbc45e4d8d5d31d63db79e3f1da
 

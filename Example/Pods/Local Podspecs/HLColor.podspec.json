@@ -1,9 +1,9 @@
 {
   "name": "HLColor",
-  "version": "0.1.0",
-  "summary": "A short description of HLColor.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/wyh900207@126.com/HLColor",
+  "version": "0.0.1",
+  "summary": "HexColor",
+  "description": "HexColor utils.",
+  "homepage": "https://github.com/wyh900207/HLColor.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,12 @@
     "wyh900207@126.com": "wyh900207@126.com"
   },
   "source": {
-    "git": "https://github.com/wyh900207@126.com/HLColor.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/wyh900207/HLColor.git",
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "HLColor/Classes/**/*"
+  "source_files": "HLColor/Classes/**/*",
+  "frameworks": "UIKit"
 }

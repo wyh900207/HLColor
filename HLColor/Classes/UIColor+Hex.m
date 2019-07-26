@@ -10,6 +10,30 @@
 
 @implementation UIColor (Hex)
 
++ (UIColor *(^)(NSString *))hex {
+    return ^UIColor *(NSString *color) {
+        return [UIColor colorWithHexString:color];
+    };
+}
+
++ (UIColor *(^)(NSString *, CGFloat))aHex {
+    return ^UIColor *(NSString *color, CGFloat alpha) {
+        return [UIColor colorWithHexString:color alpha:alpha];
+    };
+}
+
+- (UIColor *(^)(CGFloat))alpha {
+    return ^UIColor *(CGFloat alpha) {
+        CGFloat r = 0;
+        CGFloat g = 0;
+        CGFloat b = 0;
+        CGFloat a = 0;
+        [self getRed:&r green:&g blue:&b alpha:&a];
+        
+        return [UIColor colorWithRed:b green:g blue:b alpha:alpha];
+    };
+}
+
 static inline NSUInteger hexStrToInt(NSString *str) {
     uint32_t result = 0;
     sscanf([str UTF8String], "%X", &result);
