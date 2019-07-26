@@ -1,0 +1,6 @@
+framework module Pods_HLColor_Tests {
+  umbrella header "Pods-HLColor_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
